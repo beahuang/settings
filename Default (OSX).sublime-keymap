@@ -1,0 +1,5 @@
+[
+{ "keys": ["super+r"], "command": "reindent"},
+{ "keys": ["super+v"], "command": "paste"},
+{ "keys": ["ctrl+s"], "command": "toggle_side_bar" },
+]
