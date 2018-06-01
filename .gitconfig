@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Beatrice Huang
+#	email = beahuang1@gmail.com
+[user]
+	name = Beatrice Huang
+	email = beahuang1@gmail.com
+[push]
+	default = current
