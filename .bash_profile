@@ -21,9 +21,11 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
     source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
+if [ -f ~/bin/.git-completion.bash ]; then
+  source ~/bin/.git-completion.bash
 fi
 
-source ~/bin/repo-sh/repo.sh
+if [ -f ~/bin/repo-sh/repo.sh ]; then
+  source ~/bin/repo-sh/repo.sh
+fi
 
